@@ -1,7 +1,9 @@
 
-  # ss
+  # ss ![License: Apache](https://img.shields.io/badge/License-Apache2.0-yellow.svg)
+  
   ## Description
-  s
+  undefined
+  
   ## Table of Contents
   [Installation](#installation)
 
@@ -19,25 +21,20 @@
   ## Installation
   undefined
 
-
   ## Usage
   undefined
 
-  
   ## License 
-  undefined ?? to be fixed
-  
+  This application is covered under the Apache License 2.0.
 
   ## Contributing
   undefined
   
-
   ## Testing
   undefined
   
-
   ## Questions
-  My Github: [ss](https://github.com/ss?tab=repositories)
+  My Github: [undefined](https://github.com/undefined?tab=repositories)
 
-  Email me at ss with any questions.
+  Email me at undefined with any questions.
   

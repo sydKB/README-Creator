@@ -1,10 +1,14 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// This function will return text to be used in generateMarkdown, 
+// which will appear in the README as a badge for the chosen license
 function renderLicenseBadge(license) {
-  if(license == null) {
-    return '';
+  if(license[0]  === "MIT License") {
+    return `![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)`;
+  } else if(license[0]  === "The Unlicense") {
+    return `![License: Unlicense](https://img.shields.io/badge/License-Unlicense-green.svg)`;
+  } else if(license[0]  === "Apache License 2.0") {
+    return `![License: Apache](https://img.shields.io/badge/License-Apache2.0-yellow.svg)`;
   } else {
-    
+    return ``;
   }
 }
 
@@ -20,12 +24,14 @@ function renderLicenseSection(license) {
 
 }
 
-// TODO: Create a function to generate markdown for README
+// This function generates the markdown for the README file
 function generateMarkdown(data) {
   return `
-  # ${data.title}
+  # ${data.title} ${renderLicenseBadge(data.license)}
+  
   ## Description
   ${data.description}
+  
   ## Table of Contents
   [Installation](#installation)
 
@@ -43,24 +49,18 @@ function generateMarkdown(data) {
   ## Installation
   ${data.installation}
 
-
   ## Usage
   ${data.usage}
 
-
   ## License 
-  This application is covered under the ${data.license} license.
-  ${renderLicenseBadge(data.license)} ?? to be fixed
-  
+  This application is covered under the ${data.license}.
 
   ## Contributing
   ${data.contributing}
   
-
   ## Testing
   ${data.tests}
   
-
   ## Questions
   My Github: [${data.username}](https://github.com/${data.username}?tab=repositories)
 

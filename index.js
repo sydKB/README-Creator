@@ -1,5 +1,4 @@
 // Packages used in this application
-// add package.json!!!!!!-----
 const fs = require('fs');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
@@ -11,35 +10,35 @@ const questions = [
         name: 'title',
         message: 'Enter project title: '
     },
-    {
-        type: 'input',
-        name: 'description',
-        message: 'Enter description: '
-    },
-    {
-        type: 'input',
-        name: 'installation',
-        message: 'Enter installation instructions: '
-    },
-    {
-        type: 'input',
-        name: 'usage',
-        message: 'Enter usage info: '
-    },
-    {
-        type: 'input',
-        name: 'contributing',
-        message: 'Enter contribution guidelines: '
-    },
-    {
-        type: 'input',
-        name: 'tests',
-        message: 'Enter testing instructions: '
-    },
+    // {
+    //     type: 'input',
+    //     name: 'description',
+    //     message: 'Enter description: '
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'installation',
+    //     message: 'Enter installation instructions: '
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'usage',
+    //     message: 'Enter usage info: '
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'contributing',
+    //     message: 'Enter contribution guidelines: '
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'tests',
+    //     message: 'Enter testing instructions: '
+    // },
     {
         type: 'checkbox',
         name: 'license',
-        choices: [],
+        choices: ["MIT License", "The Unlicense", "Apache License 2.0"],
         message: 'Select your license: '
     },
     {
@@ -66,6 +65,7 @@ function init() {
     inquirer.prompt(questions).then(function(answers) {
         const markdownText = generateMarkdown(answers);
         writeToFile(`README.md`, markdownText);
+        
     });
 }
 
