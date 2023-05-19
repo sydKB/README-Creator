@@ -58,4 +58,5 @@
 
   ## Application Tutorial Video
   ![Tutorial Video](tutorial.gif)
+  [Tutorial Video](tutorial.gif)
   
