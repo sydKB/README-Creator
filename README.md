@@ -1,40 +1,61 @@
 
-  # ss ![License: Apache](https://img.shields.io/badge/License-Apache2.0-yellow.svg)
+  # README Creator [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](#license)
+  
   
   ## Description
-  undefined
+
+  This application takes user input and puts it into an organized REAMDME with a comprehensive table of contents.
   
+
   ## Table of Contents
-  [Installation](#installation)
 
-  [Usage](#usage)
-
-  [License](#license)
-
-  [Contributing](#contributing)
-
-  [Testing](#testing)
-
-  [Questions](#questions)
+  > [Installation](#installation)
+  >
+  > [Usage](#usage)
+  >
+  > [License](#license)
+  >
+  > [Contributing](#contributing)
+  >
+  > [Testing](#testing)
+  >
+  > [Questions](#questions)
 
 
   ## Installation
-  undefined
+
+  sdfsdfsd
+
 
   ## Usage
-  undefined
+
+  sdfsdfdsf
+
 
   ## License 
-  This application is covered under the Apache License 2.0.
+
+  This application is covered under the 
+  [MIT License](https://mit-license.org).
+  Click for details.
+
 
   ## Contributing
-  undefined
+
+  fesdfsdf
+
   
   ## Testing
-  undefined
+
+  Type "node index.js" into the terminal and answer the prompts.
+
   
   ## Questions
-  My Github: [undefined](https://github.com/undefined?tab=repositories)
 
-  Email me at undefined with any questions.
+  * My Github: [sydKB](https://github.com/sydKB?tab=repositories)
+
+  * Email me at sydneykb11@icloud.com with any questions.
+  - - -
+
+  ## Application Tutorial Video
+  ![Tutorial Video](tutorial.gif)
   

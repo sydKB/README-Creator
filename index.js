@@ -10,35 +10,35 @@ const questions = [
         name: 'title',
         message: 'Enter project title: '
     },
-    // {
-    //     type: 'input',
-    //     name: 'description',
-    //     message: 'Enter description: '
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'installation',
-    //     message: 'Enter installation instructions: '
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'usage',
-    //     message: 'Enter usage info: '
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'contributing',
-    //     message: 'Enter contribution guidelines: '
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'tests',
-    //     message: 'Enter testing instructions: '
-    // },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Enter description: '
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Enter installation instructions: '
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Enter usage info: '
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Enter contribution guidelines: '
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Enter testing instructions: '
+    },
     {
         type: 'checkbox',
         name: 'license',
-        choices: ["MIT License", "The Unlicense", "Apache License 2.0"],
+        choices: ["MIT License", "Unlicense", "Apache License 2.0"],
         message: 'Select your license: '
     },
     {
